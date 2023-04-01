@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://todo-app-omega-orcin.vercel.app/#/">
       Demo
     </a>
     <span> | </span>
@@ -37,14 +37,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
-
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+![screenshot](https://github.com/alexsousa4067/todo-app/blob/main/src/assets/overview.png?raw=true)
 
 ### Built With
 
@@ -55,6 +48,13 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+<ul>
+<li>User story: you can add a new task</li>
+<li>User story: you can complete a task</li>
+<li>User story: you can toggle between All, Active and Completed</li>
+<li>User story: you can remove one or all tasks under the Completed tab</li>
+<li>User story: Store the data in local storage that when you refresh the page you can still see your progress</li>
+</ul>
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hH6PbOHBdPm6otzw2De5) was to build an application to complete the given user stories.
 
@@ -72,7 +72,13 @@ $ git clone https://github.com/alexsousa4067/todo-app
 $ npm install
 
 # Run the app
-$ npm start
+$ npm run serve
+
+# Install json-server
+$ npm install -G json-server
+
+# Run json-server
+$ json-server data.json
 ```
 
 ## Acknowledgements
@@ -85,6 +91,4 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [@alexsousa4067](https://github.com/alexsousa4067)
