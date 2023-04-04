@@ -8,23 +8,17 @@
 <script>
 import TodoList from "@/components/TodoList.vue";
 import FormAddTodo from "@/components/FormAddTodo.vue";
-import axios from "axios";
+import {useTodos} from "@/composables/todos";
+
+const todos = useTodos();
 
 export default {
   name: 'HomeView',
   components: {FormAddTodo, TodoList},
   data() {
     return {
-      todos: []
+      todos: todos.allTodos()
     };
-  },
-  async created() {
-    try {
-      const response = await axios.get('http://localhost:3000/todos');
-      this.todos = response.data;
-    } catch (e) {
-      console.log(e);
-    }
   }
 }
 </script>

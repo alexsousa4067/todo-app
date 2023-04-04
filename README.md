@@ -66,19 +66,13 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/alexsousa4067/todo-app
+git clone https://github.com/alexsousa4067/todo-app
 
 # Install dependencies
-$ npm install
+npm install
 
 # Run the app
-$ npm run serve
-
-# Install json-server
-$ npm install -G json-server
-
-# Run json-server
-$ json-server data.json
+npm run serve
 ```
 
 ## Acknowledgements
